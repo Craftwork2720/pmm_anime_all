@@ -1,5 +1,7 @@
 # pmm_anime_all
 
+This config is perfect with plexanisync (RickDB/PlexAniSync) https://github.com/RickDB/PlexAniSync
+
 Edit anilist usernames in /metadata/collection_anime_anilist.yml   username: ###HereYourAnilistUserName
 
 -Ratings
