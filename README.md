@@ -1,8 +1,6 @@
 # pmm_anime_all
 
-Edit anilist usernames in /metadata/collection_anime_anilist.yml 
-    anilist_userlist:
-      username:
+Edit anilist usernames in /metadata/collection_anime_anilist.yml   username: ###HereYourAnilistUserName
 
 -Ratings
 
