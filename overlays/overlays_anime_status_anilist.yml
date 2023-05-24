@@ -1,0 +1,109 @@
+templates:
+overlays:
+        
+        
+  Dropped:
+    overlay:
+      font_color: "#FFBABE"
+      back_color: "#FF000DBA"
+      group: aniliststatus
+      name: text(DROPPED)
+      weight: 50
+      font: config/fonts/CircularStd-Bold.otf
+      font_size: 60
+      back_radius: 20
+      back_width: 340
+      back_height: 105
+      horizontal_offset: 0
+      horizontal_align: center
+      vertical_offset: 0
+      vertical_align: center
+    plex_search:
+      all:
+        collection: Dropped
+        
+        
+  Watching:
+    overlay:
+      font_color: "#BDBCBB"
+      back_color: "#1A191993"
+      group: aniliststatus
+      name: text(watchig)
+      weight: 40
+      font: config/fonts/CircularStd-Bold.otf
+      font_size: 60
+      back_radius: 20
+      back_width: 300
+      back_height: 105
+      horizontal_offset: 35
+      horizontal_align: left
+      vertical_offset: 150
+      vertical_align: bottom
+    plex_search:
+      all:
+        collection: Currently Watching Anime
+        
+        
+  Rewatch:
+    overlay:
+      font_color: "#C8D5E8"
+      back_color: "#2862BA93"
+      group: aniliststatus
+      name: text(rewatch)
+      weight: 30
+      font: config/fonts/CircularStd-Bold.otf
+      font_size: 60
+      back_radius: 20
+      back_width: 300
+      back_height: 105
+      horizontal_offset: 35
+      horizontal_align: left
+      vertical_offset: 150
+      vertical_align: bottom
+    plex_search:
+      all:
+        collection: 
+          - Completed
+          - Planning
+        
+        
+  Completed:
+    overlay:
+      font_color: "#D2E8C8"
+      back_color: "#46962093"
+      group: aniliststatus
+      name: text(completed)
+      weight: 20
+      font: config/fonts/CircularStd-Bold.otf
+      font_size: 60
+      back_radius: 20
+      back_width: 360
+      back_height: 105
+      horizontal_offset: 35
+      horizontal_align: left
+      vertical_offset: 150
+      vertical_align: bottom
+    plex_search:
+      all:
+        collection: Completed
+        
+  Planning:
+    overlay:
+      font_color: "#E8C8C8"
+      back_color: "#D12D2D93"
+      group: aniliststatus
+      name: text(planning)
+      weight: 10
+      font: config/fonts/CircularStd-Bold.otf
+      font_size: 60
+      back_radius: 20
+      back_width: 300
+      back_height: 105
+      horizontal_offset: 35
+      horizontal_align: left
+      vertical_offset: 150
+      vertical_align: bottom
+    plex_search:
+      all:
+        collection: Planning
+        

@@ -1,0 +1,73 @@
+collections:
+  Current Anime Season:
+    ### Always displayed as the first collection.
+    sort_title: +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++_Current Season
+    file_poster: config/metadata/posters/currentseaon_poster.png
+    anilist_search:
+      season:
+      year:
+      sort_by: popular
+      limit: 500
+    summary: Anime airing this season.
+    smart_label: episode_added.desc
+    sync_mode: sync
+    #### Download Current season anime [: future or : latest season ]
+    #sonarr_add_missing: true
+    #sonarr_search: true
+    #sonarr_monitor: pilot
+    #item_sonarr_tag: currentseason, pilot, anilist
+  Currently Watching Anime:
+    sort_title: +++++++++++++++++++++++++++++++++++++++++++++++++++++_Currently Watching
+    file_poster: config/metadata/posters/currently_poster.png
+    anilist_userlist:
+      username: ###HereYourAnilistUserName   ##Edit
+      list_name: Watching
+      sort_by: last_updated
+    summary: Currently watching Anime on AniList.
+    collection_order: custom
+  Planning:
+    sort_title: +++++++++++++++++++++++++++++++++++++++++++++++++++__Planning
+    file_poster: config/metadata/posters/planning_poster.png
+    anilist_userlist:
+      username: ###HereYourAnilistUserName   ##Edit
+      list_name: Planning
+      sort_by: last_updated
+      limit: 10
+    collection_order: custom
+    sync_mode: sync
+    #### sonarr download with pilot download
+    #sonarr_add_missing: true
+    #sonarr_search: false
+    #sonarr_monitor: all
+    #item_sonarr_tag: planning, anilist
+    #### radarr download with pilot download
+    #radarr_add_missing: true
+    #radarr_ignore_cache: false
+    #radarr_search: true
+    #radarr_monitor: true
+    #item_radarr_tag: planning, anilist, auto
+  Completed:
+    sort_title: ++++++++++++++++++++++++++++++++++++++++++++++++++_Completed
+    file_poster: config/metadata/posters/completed_poster.png
+    anilist_userlist:
+      username: ###HereYourAnilistUserName   ##Edit
+      list_name: Completed
+      sort_by: last_updated
+    summary: Completed on AniList.
+    collection_order: custom
+    sync_mode: sync 
+    #item_sonarr_tag: completed, anilist
+  Dropped:
+    sort_title: +++++++++++++++++++++++++++++++++++++++++++++++_Dropped
+    file_poster: config/metadata/posters/dropped_poster.png
+    anilist_userlist:
+      username: ###HereYourAnilistUserName   ##Edit
+      list_name: Dropped
+      sort_by: last_updated
+    summary: Dropped on AniList.
+    collection_order: custom
+    sync_mode: sync
+    #sonarr_add_missing: false
+    #sonarr_search: false
+    #sonarr_monitor: none
+    #item_sonarr_tag: dropped, anilist

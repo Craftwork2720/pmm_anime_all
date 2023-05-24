@@ -1,0 +1,27 @@
+libraries:   
+  Anime:
+    operations:
+      split_duplicates: false
+      assets_for_all: false
+      delete_unmanaged_collections: true
+      mass_content_rating_update: mal
+      mass_genre_update: anidb
+      mass_originally_available_update: anidb
+      mass_imdb_parental_labels: with_none
+     #mass_episode_audience_rating_update: tmdb
+     #mass_episode_critic_rating_update: imdb
+     #mass_episode_user_rating_update: tmdb
+      mass_original_title_update: anidb_official 
+      mass_audience_rating_update: anidb_rating
+      mass_critic_rating_update: anidb_average
+      mass_user_rating_update: mal
+    metadata_path:
+    - file: config/metadata/collection_anime_anilist                         ### Anilist Collections
+    overlay_path:
+    - remove_overlays: false
+    - file: config/overlays/overlays_anime                                   ### rankings
+    - file: config/overlays/overlays_anime_status                            ### Status airing, ended, canceled,
+    - file: config/overlays/overlays_anime_status_anilist                    ### Status collection planing, completed, dropped, rewatch.
+    tvdb_language: eng
+    anidb:                    
+      language: en
